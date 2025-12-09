@@ -39,12 +39,12 @@
 :root {
   /* Colors */
   --blue-100: #DBEAFE;
-  --color-primary: #155DFC;
+  --color-primary: #008cff;
   --blue-600: #155DFC;
 
   --color-secondary: #0A0A0A;
   --color-bg: #FFFFFF;
-  --color-text: #737373;
+  --color-text: #0A0A0A;
 
   --neutral-100: #F5F5F5;
   --neutral-200: #E5E5E5;
@@ -62,6 +62,9 @@
 
   --amber-100: #FEF3C6;
   --amber-500: #FE9A00;
+
+  --pink-100: #faf5f4;
+  --pink-300: #f0e0dc;
 
 
 
@@ -104,7 +107,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
-  direction: var(--dir);
+  direction: rtl;
 letter-spacing: -0.05em;
 
 
@@ -173,7 +176,7 @@ li{
 
 
 .grid-border{
-  border-bottom: 1px solid var(--neutral-300);
+  border-bottom: 1px solid var(--neutral-600);
 }
 .grid-border-whole{
   border: 1px solid var(--neutral-300);
